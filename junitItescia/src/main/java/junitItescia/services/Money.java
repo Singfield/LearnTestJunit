@@ -10,7 +10,7 @@ public class Money {
 
     public Money(int fAmount, String fCurrency) throws Exception {
         boolean verify=Arrays.stream(possibleCurrency).anyMatch(x->x==fCurrency);
-        
+        System.out.println(verify);
         if ( this.fAmount <0 ) {
             throw new Exception("incorrect amount value ");
         }
@@ -67,7 +67,7 @@ public class Money {
         return new Money (getFAmount()+ m.getFAmount(), getFCurrency());
     }
     public Money add(int namount, String ncurrency) throws Exception{
-        if(ncurrency == this.getFCurrency()){
+        if(ncurrency != this.getFCurrency()){
             throw new Exception("error please verify currency (not obj)");
         }
         return new Money (getFAmount()+ namount, currency());
