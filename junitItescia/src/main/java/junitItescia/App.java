@@ -1,6 +1,6 @@
 package junitItescia;
 
-import junitItescia.services.Money;
+import junitItescia.services.Exercice1.Money;
 
 public class App {
     

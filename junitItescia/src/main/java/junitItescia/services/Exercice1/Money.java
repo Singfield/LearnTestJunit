@@ -1,4 +1,4 @@
-package junitItescia.services;
+package junitItescia.services.Exercice1;
 
 import java.util.Arrays;
 

@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import junitItescia.services.Money;
+import junitItescia.services.Exercice1.Money;
 
 @DisplayName("MoneyBagTest")
 public class MoneyBagTest {

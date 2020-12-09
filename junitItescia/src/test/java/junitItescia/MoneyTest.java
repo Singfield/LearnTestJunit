@@ -1,17 +1,13 @@
 package junitItescia;
 
-import junitItescia.services.Money;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
-
-import java.util.Arrays;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import junitItescia.services.Exercice1.Money;
 
 @DisplayName("MoneyTest")
 public class MoneyTest {
