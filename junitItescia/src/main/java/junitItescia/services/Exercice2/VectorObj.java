@@ -15,9 +15,6 @@ public class VectorObj {
                
                vector.addAll(temp);
                return vector;
-           
-       
-
     }
 
 }
